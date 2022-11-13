@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    background-color: #F6F6EE;
+}
+#nav{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 120px;
+    font-family: gilroy;
+    text-transform: uppercase;font-size: 25px;
+
+
+}
+#nav h1{
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+#nav h1 span{
+    font-weight: 500;
+}
+#nav #link{
+    display: flex;
+    gap: 68px;
+    /* background-color: aqua; */
+
+}
+#nav #link a{
+    text-decoration: none;
+    color: black;
+    
+}
+#nav #link a h3{
+    font-weight: 300;
+
+}
+#centre{
+    /* background-color: aqua; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);*/
+    text-align: center; 
+    padding: 12vh 20vw;
+    /* background-color: #F6F6EE; */
+}
+#centre h1{
+    font-family: playfair display;
+    font-size: 65px;
+    text-transform: capitalize;
+}
+#centre p{
+    /* background-color: aqua; */
+    padding: 35px;
+    font-family: gilroy;
+
+}
+#centre button{
+    padding: 15px 25px;
+    background-color: transparent;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-family: gilroy;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+#img img{
+    width: 100%;
+
+}
+#bottom{
+    display: flex;
+    font-family: gilroy;
+    padding: 195px 95px;
+    gap: 30px;
+}
+#bottom #left{
+    text-align: right;
+    padding-left: 190px;
+    border-right: 3px solid black;
+    padding-right: 30px;
+}
+#bottom #left h3{
+    font-size: 29px;
+}
+#bottom #left #line{
+    /* background-color: blue; */
+    border-bottom: 3px  solid black;
+    width: 20px;
+    margin: 20px 0;
+    position: relative;
+    left: 94%;
+    /* justify-items: flex-start */
+
+}
+#bottom #right {
+    display: flex;
+    gap: 15px;
+    padding-right: 190px;
+}
+#bottom #right #content h5{
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+#bottom #right  i{
+    font-size: 28px;
+}
